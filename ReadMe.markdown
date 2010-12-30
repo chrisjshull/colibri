@@ -1,6 +1,6 @@
-### Current Release ###
+### Version 1.1.21, Current Release ###
 
-Version 1.1.21, Colibri what other color screen pickers cannot do.
+Colibri what other color screen pickers cannot do.
 
 http://github.com/cucurbita/colibri/Readme/screenshot.jpg
 
@@ -18,7 +18,7 @@ Known issue (Applies to any app using CG): Apple Core Graphics API has a hard ti
 
 For any complaints you take the 101, then Exit Toward University Avenue (You know the Big IKEA, made for people like us(TM)), then make a left on Middlefield (... BIP ...) stop at the first House with (... BIP ...) on the rigth you can see (... BIP ...) with (... BIP ...) that's the # (... BIP ...) of (... BIP ...) kidding 8-).
 
-Version 1.1.1
+### Version 1.1.1 ###
 
   * CPU usage and memory optimization. (maximum top noted with strong repaints e.g a video playing: 9.2% of CPU usage versus Apple (macbook pro, 12% on mac mini snow) !DigitalColor Meter: 44.8% and sometimes more).
   * Added activate/deactivate mouse moved event listener when the application is hidden (was really bad in term of CPU) or the window is miniaturized.
@@ -41,15 +41,15 @@ Version 1.1.1
 			return;
 	}
 
-Version 1.1.0
+### Version 1.1.0 ### 
 
   * Added User Preferences option: Hexadecimal string prefixed by a hash sign when copying or saving a color.
 
-Version 1.0.7
+### Version 1.0.7 ###
 
   * Public release
 
-Version 1.0.0
+### Version 1.0.0 ###
 
   * Birth
 
@@ -62,30 +62,27 @@ you can display the RGB color value as percentage, absolute or hexadecimal, you 
 ### Menu Color Keys ###
 
 sub menu Value as:
-  * <command + 5> Actual Value
-  * <command + 6> Percentage Value
-  * <command + 7> Hexadecimal Value
+	* <command + 5> Actual Value
+	* <command + 6> Percentage Value
+	* <command + 7> Hexadecimal Value
 
 main menu:
-  * <shift + command + C> Copy Text Value to the Clipboard
-  * <command + S> Save Color as a PNG/TIFF file named with its Hexadecimal Value.
+	* <shift + command + C> Copy Text Value to the Clipboard
+	* <command + S> Save Color as a PNG/TIFF file named with its Hexadecimal Value.
 
 ### Menu View Keys ###
 
 sub menu Position:
-  * <command + L> Lock/Unlock Actual X Y Position
-  * <command + X> Lock/Unlock Actual X Position
-  * <command + Y> Lock/Unlock Actual Y Position
+	* <command + L> Lock/Unlock Actual X Y Position
+	* <command + X> Lock/Unlock Actual X Position
+	* <command + Y> Lock/Unlock Actual Y Position
 
 main menu:
-  * <command + +> Zoom In Magnifier
-  * <command + -> Zoom Out Magnifier
-  * <shift + command + S> Save Magnifier as a PNG/TIFF file.
+	* <command + +> Zoom In Magnifier
+	* <command + -> Zoom Out Magnifier
+	* <shift + command + S> Save Magnifier as a PNG/TIFF file.
 
 ### Menu Window Keys ###
-  * <command + M> Minimize
-  * <command + T> Float Top Level/Float Normal Level
-  * <shift + command + G> Mouse Events Globally/Window Focused Mouse Events
-
-
-
+	* <command + M> Minimize
+	* <command + T> Float Top Level/Float Normal Level
+	* <shift + command + G> Mouse Events Globally/Window Focused Mouse Events
