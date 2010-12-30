@@ -64,6 +64,12 @@ A Digital Color Meter, Colorimeter or similar to !DigitalColor Meter ©Apple, bu
 By using shorcut keys, you can display the RGB color value as percentage, absolute or hexadecimal, you can also 
 save the solid color as a PNG/TIFF image on your Desktop, see bellow for available menu shortcut keys.
 
+#### License
+###### source code:
+	New BSD License/Modified BSD License
+###### build binary:
+	You cannot redistribute and claim colibri builds. You cannot host colibri builds for public downloads except for private usage only.
+
 #### Menu Color Keys
 
 
