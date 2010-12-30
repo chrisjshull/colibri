@@ -1,28 +1,33 @@
 ### Version 1.1.21, Current Release ###
-	Colibri what other color screen pickers cannot do.
+
+Colibri what other color screen pickers cannot do.
 
 http://github.com/cucurbita/colibri/Readme/screenshot.jpg
 
 Color history view:
-  1. The color you copy goes in this stack and the string representation to the pasteboard.
-  2. Drag and drop a color anywhere: Applications, System Color Picker or Folders. 
-  3. Double click on a color to remove it from the stack.
+
+1. The color you copy goes in this stack and the string representation to the pasteboard.
+2. Drag and drop a color anywhere: Applications, System Color Picker or Folders. 
+3. Double click on a color to remove it from the stack.
 
 Global mode:
-	Added Hot key to copy. (for now read-only setting)
 
-Known issue (Applies to any app using CG): 
-	Apple Core Graphics API has a hard time with some GL Views (Apps, Games); misinterpreting the composite mask 
-	(anyway rare, in Radar, I was lucky to catch that, e.g randomly testing Colibri CPU usage on various views 
-	invalidating a lot). Syndrome: the magnifier will paint a green color (mask) you might time to time perceive 
-	our friend Roswell 8-) too. For any complaints you take the 101, then Exit Toward University Avenue 
-	(You know the Big IKEA, made for people like us(TM)), then make a left on Middlefield (... BIP ...) stop at 
-	the first House with (... BIP ...) on the rigth you can see (... BIP ...) with (... BIP ...) that's the # (... BIP ...) of (... BIP ...) kidding 8-).
+Added Hot key to copy. (for now read-only setting)
+
+Known issue (Applies to any app using CG):
+
+Apple Core Graphics API has a hard time with some GL Views (Apps, Games); misinterpreting the composite mask 
+(anyway rare, in Radar, I was lucky to catch that, e.g randomly testing Colibri CPU usage on various views 
+invalidating a lot). Syndrome: the magnifier will paint a green color (mask) you might time to time perceive 
+our friend Roswell 8-) too. For any complaints you take the 101, then Exit Toward University Avenue 
+(You know the Big IKEA, made for people like us(TM)), then make a left on Middlefield (... BIP ...) stop at 
+the first House with (... BIP ...) on the rigth you can see (... BIP ...) with (... BIP ...) that's the # (... BIP ...) of (... BIP ...) kidding 8-).
 
 ### Version 1.1.1 ###
-  1. CPU usage and memory optimization. (maximum top noted with strong repaints e.g a video playing: 9.2% of CPU usage versus Apple (macbook pro, 12% on mac mini snow) !DigitalColor Meter: 44.8% and sometimes more).
-  2. Added activate/deactivate mouse moved event listener when the application is hidden (was really bad in term of CPU) or the window is miniaturized.
-  3. Removed discard mouse moved event when the window is miniaturized.
+
+1. CPU usage and memory optimization. (maximum top noted with strong repaints e.g a video playing: 9.2% of CPU usage versus Apple (macbook pro, 12% on mac mini snow) !DigitalColor Meter: 44.8% and sometimes more).
+2. Added activate/deactivate mouse moved event listener when the application is hidden (was really bad in term of CPU) or the window is miniaturized.
+3. Removed discard mouse moved event when the window is miniaturized.
 
 >
 	- (oneway void)setActivatesMouseMovedEvents:(BOOL)activate {
@@ -52,9 +57,10 @@ Known issue (Applies to any app using CG):
 	Birth
 
 ### Description ###
-	Colibri is a screen color picker for displaying the RGB color value of pixels on your Mac 100% Cocoa powered (e.g 
-	A Digital Color Meter, Colorimeter or similar to !DigitalColor Meter ©Apple, but using way far less CPU and with no bug). By using shorcut keys, 
-	you can display the RGB color value as percentage, absolute or hexadecimal, you can also save the solid color as a PNG/TIFF image on your Desktop, see bellow for available menu shortcut keys.
+Colibri is a screen color picker for displaying the RGB color value of pixels on your Mac 100% Cocoa powered (e.g 
+A Digital Color Meter, Colorimeter or similar to !DigitalColor Meter ©Apple, but using way far less CPU and with no bug). 
+By using shorcut keys, you can display the RGB color value as percentage, absolute or hexadecimal, you can also 
+save the solid color as a PNG/TIFF image on your Desktop, see bellow for available menu shortcut keys.
 
 ### Menu Color Keys ###
 
