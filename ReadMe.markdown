@@ -1,4 +1,4 @@
-* Current Release *
+### Current Release ###
 
 Version 1.1.21, Colibri what other color screen pickers cannot do.
 
@@ -24,23 +24,22 @@ Version 1.1.1
   * Added activate/deactivate mouse moved event listener when the application is hidden (was really bad in term of CPU) or the window is miniaturized.
   * Removed discard mouse moved event when the window is miniaturized.
 
-{{{
-- (oneway void)setActivatesMouseMovedEvents:(BOOL)activate {
-        if (activate) {
-                NSNumber *acceptEventGlobally = [[NSUserDefaults standardUserDefaults] 
-                        objectForKey:kColibriUserDefaultsAcceptEventGloballyKey
-                ];
-                if ([acceptEventGlobally boolValue]) {
-                        [window setAcceptsMouseMovedEvents:YES global:YES receiver:self.magnifierView];
-                } else {
-                        [window setAcceptsMouseMovedEvents:YES global:NO receiver:nil];
-                }
-        } else {
-                [window setAcceptsMouseMovedEvents:NO global:NO receiver:nil];
-        }
-        return;
-}
-}}}
+>
+	- (oneway void)setActivatesMouseMovedEvents:(BOOL)activate {
+			if (activate) {
+					NSNumber *acceptEventGlobally = [[NSUserDefaults standardUserDefaults] 
+							objectForKey:kColibriUserDefaultsAcceptEventGloballyKey
+					];
+					if ([acceptEventGlobally boolValue]) {
+							[window setAcceptsMouseMovedEvents:YES global:YES receiver:self.magnifierView];
+					} else {
+							[window setAcceptsMouseMovedEvents:YES global:NO receiver:nil];
+					}
+			} else {
+					[window setAcceptsMouseMovedEvents:NO global:NO receiver:nil];
+			}
+			return;
+	}
 
 Version 1.1.0
 
@@ -54,13 +53,13 @@ Version 1.0.0
 
   * Birth
 
-* Description *
+### Description ###
 
 Colibri is a screen color picker for displaying the RGB color value of pixels on your Mac 100% Cocoa powered (e.g 
 A Digital Color Meter, Colorimeter or similar to !DigitalColor Meter ©Apple, but using way far less CPU and with no bug). By using shorcut keys, 
 you can display the RGB color value as percentage, absolute or hexadecimal, you can also save the solid color as a PNG/TIFF image on your Desktop, see bellow for available menu shortcut keys.
 
-* Menu Color Keys *
+### Menu Color Keys ###
 
 sub menu Value as:
   * <command + 5> Actual Value
@@ -71,7 +70,7 @@ main menu:
   * <shift + command + C> Copy Text Value to the Clipboard
   * <command + S> Save Color as a PNG/TIFF file named with its Hexadecimal Value.
 
-* Menu View Keys *
+### Menu View Keys ###
 
 sub menu Position:
   * <command + L> Lock/Unlock Actual X Y Position
@@ -83,7 +82,7 @@ main menu:
   * <command + -> Zoom Out Magnifier
   * <shift + command + S> Save Magnifier as a PNG/TIFF file.
 
-* Menu Window Keys *
+### Menu Window Keys ###
   * <command + M> Minimize
   * <command + T> Float Top Level/Float Normal Level
   * <shift + command + G> Mouse Events Globally/Window Focused Mouse Events
