@@ -65,15 +65,16 @@ By using shorcut keys, you can display the RGB color value as percentage, absolu
 save the solid color as a PNG/TIFF image on your Desktop, see bellow for available menu shortcut keys.
 
 #### License
+0. Mirroring  statistics or any author/project information of this repository is not allowed.
+1. None of these following clauses apply to the Author or any other entities/persons endorsed and choosen by the Author.
+
 ###### source code:
 1. New BSD License/Modified BSD License
 
 ###### build binary:
-0. Mirroring  statistics or any author/project information of this repository is not allowed.
 1. You cannot redistribute and claim colibri builds. 
 2. You cannot host colibri builds for public downloads.
 3. Hosting colibri build downloads is granted for private usage only.
-4. None of these clauses apply to the Author or any other entities/persons endorsed and choosen by the Author.
 
 #### Menu Color Keys
 
