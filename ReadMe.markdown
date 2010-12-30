@@ -72,7 +72,7 @@ save the solid color as a PNG/TIFF image on your Desktop, see bellow for availab
 1. You cannot redistribute and claim colibri builds. 
 2. You cannot host colibri builds for public downloads.
 3. Hosting colibri build downloads is granted for private usage only.
-4. None of these clauses apply to the Author and Github or any other entities endorsed by the Author.
+4. None of these clauses apply to the Author or any other entities endorsed and choosen by the Author.
 
 #### Menu Color Keys
 
