@@ -1,8 +1,8 @@
-### Version 1\.1\.21, Current Release ###
+### Version 1.1.21, Current Release ###
 
 Colibri what other color screen pickers cannot do.
 
-<img src="https://github.com/cucurbita/colibri/raw/master/ReadMe/screenshot.jpg" />
+(https://github.com/cucurbita/colibri/raw/master/ReadMe/screenshot.jpg)
 
 Color history view:
 
@@ -23,13 +23,14 @@ our friend Roswell 8-) too. For any complaints you take the 101, then Exit Towar
 (You know the Big IKEA, made for people like us(TM)), then make a left on Middlefield (... BIP ...) stop at 
 the first House with (... BIP ...) on the rigth you can see (... BIP ...) with (... BIP ...) that's the # (... BIP ...) of (... BIP ...) kidding 8-).
 
-### Version 1\.1\.1 ###
+### Version 1.1.1 ###
 
 1. CPU usage and memory optimization. (maximum top noted with strong repaints e.g a video playing: 9.2% of CPU usage versus Apple (macbook pro, 12% on mac mini snow) !DigitalColor Meter: 44.8% and sometimes more).
 2. Added activate/deactivate mouse moved event listener when the application is hidden (was really bad in term of CPU) or the window is miniaturized.
 3. Removed discard mouse moved event when the window is miniaturized.
 
 
+>
 	- (oneway void)setActivatesMouseMovedEvents:(BOOL)activate {
 			if (activate) {
 					NSNumber *acceptEventGlobally = [[NSUserDefaults standardUserDefaults] 
@@ -45,16 +46,16 @@ the first House with (... BIP ...) on the rigth you can see (... BIP ...) with (
 			}
 			return;
 	}
+>
 
 
-
-### Version 1\.1\.0 ### 
+### Version 1.1.0 ### 
 	Added User Preferences option: Hexadecimal string prefixed by a hash sign when copying or saving a color.
 
-### Version 1\.0\.7 ###
+### Version 1.0.7 ###
 	Public release
 
-### Version 1\.0\.0 ###
+### Version 1.0.0 ###
 	Birth
 
 ### Description ###
