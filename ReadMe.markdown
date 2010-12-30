@@ -67,7 +67,7 @@ save the solid color as a PNG/TIFF image on your Desktop, see bellow for availab
 #### License
 0. Mirroring  statistics or any author/project information of this repository is not allowed.
 1. None of these following clauses apply to the Author or any other entities/persons endorsed and choosen by the Author.
-3. Actual choosen entities: github.com, googlecode.com, apple.com, any others are under copyright infringement.
+3. Actual choosen entities: github.com, googlecode.com, apple.com, osx.hyperjeff.net, any others are under copyright infringement.
 
 ###### source code:
 1. New BSD License/Modified BSD License
