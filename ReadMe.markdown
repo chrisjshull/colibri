@@ -22,7 +22,7 @@ By using shorcut keys, you can display the RGB color value as percentage, absolu
 save the solid color as a PNG/TIFF image on your Desktop, see bellow for available menu shortcut keys.
 
 #### License
-	New BSD License/Modified BSD License
+	code source: New BSD License/Modified BSD License, not applies to the builds.
 
 #### Menu Color Keys
 
