@@ -67,14 +67,16 @@ save the solid color as a PNG/TIFF image on your Desktop, see bellow for availab
 #### License
 0. Mirroring  statistics or any author/project information of this repository is not allowed.
 1. None of these following clauses apply to the Author or any other entities/persons endorsed and choosen by the Author.
+3. Actual choosen entities: github.com, googlecode.com, apple.com, any others are under copyright infringement.
 
 ###### source code:
 1. New BSD License/Modified BSD License
+2. e.g You can do whatever you want
 
 ###### build binary:
-1. You cannot redistribute and claim colibri builds. 
-2. You cannot host colibri builds for public downloads.
-3. Hosting colibri build downloads is granted for private usage only.
+1. You cannot redistribute and claim colibri assemblies/builds. 
+2. You cannot host colibri assemblies/builds for public downloads.
+3. Hosting colibri assemblies/builds downloads is granted for private usage only.
 
 #### Menu Color Keys
 
