@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D5267FD20FE72A5B00E5D312 /* ColibriApplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5267FC40FE72A5B00E5D312 /* ColibriApplicationController.m */; };
+		D5267FD40FE72A5B00E5D312 /* ColibriMagnifierView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5267FC80FE72A5B00E5D312 /* ColibriMagnifierView.m */; };
+		D5267FD50FE72A5B00E5D312 /* ColibriMainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D5267FCA0FE72A5B00E5D312 /* ColibriMainWindow.m */; };
+		D5267FD60FE72A5B00E5D312 /* ColibriPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5267FCC0FE72A5B00E5D312 /* ColibriPreferencesViewController.m */; };
+		D526800C0FE72F1000E5D312 /* PreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D526800A0FE72F1000E5D312 /* PreferencesView.xib */; };
+		D52DA1740FEC80440043BA4B /* AUPreferencesSingleItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D52DA1720FEC80440043BA4B /* AUPreferencesSingleItem.m */; };
+		D52DA1D20FEC8A660043BA4B /* AUPathUtilitiesAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D52DA1D10FEC8A660043BA4B /* AUPathUtilitiesAddition.m */; };
+		D53031091039CC7200797B8F /* AUColorAdditionExtra.m in Sources */ = {isa = PBXBuildFile; fileRef = D53031081039CC7200797B8F /* AUColorAdditionExtra.m */; };
+		D5373DE10FFC478D00A14314 /* AUColorAdditionRGB.m in Sources */ = {isa = PBXBuildFile; fileRef = D5373DE00FFC478D00A14314 /* AUColorAdditionRGB.m */; };
+		D553F8E80FF066AB001604E4 /* AUGraphicsAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D553F8E70FF066AB001604E4 /* AUGraphicsAddition.m */; };
+		D5B8044C0FCF1817006837B6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B8044B0FCF1817006837B6 /* CoreData.framework */; };
+		D5DECBBF0FB4BD07002F18EC /* Colibri.icns in Resources */ = {isa = PBXBuildFile; fileRef = D5DECBBE0FB4BD07002F18EC /* Colibri.icns */; };
+		D5F48C2011DFA3BD001214A7 /* ColibriHistoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F48C1F11DFA3BD001214A7 /* ColibriHistoryView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Colibri_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colibri_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Colibri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colibri.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5267FC30FE72A5B00E5D312 /* ColibriApplicationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColibriApplicationController.h; sourceTree = "<group>"; };
+		D5267FC40FE72A5B00E5D312 /* ColibriApplicationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColibriApplicationController.m; sourceTree = "<group>"; };
+		D5267FC70FE72A5B00E5D312 /* ColibriMagnifierView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColibriMagnifierView.h; sourceTree = "<group>"; };
+		D5267FC80FE72A5B00E5D312 /* ColibriMagnifierView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColibriMagnifierView.m; sourceTree = "<group>"; };
+		D5267FC90FE72A5B00E5D312 /* ColibriMainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColibriMainWindow.h; sourceTree = "<group>"; };
+		D5267FCA0FE72A5B00E5D312 /* ColibriMainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColibriMainWindow.m; sourceTree = "<group>"; };
+		D5267FCB0FE72A5B00E5D312 /* ColibriPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColibriPreferencesViewController.h; sourceTree = "<group>"; };
+		D5267FCC0FE72A5B00E5D312 /* ColibriPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColibriPreferencesViewController.m; sourceTree = "<group>"; };
+		D5267FCE0FE72A5B00E5D312 /* AUPathUtilitiesAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUPathUtilitiesAddition.h; sourceTree = "<group>"; };
+		D5267FD10FE72A5B00E5D312 /* AUSingletonizeClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUSingletonizeClass.h; sourceTree = "<group>"; };
+		D526800B0FE72F1000E5D312 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/PreferencesView.xib; sourceTree = "<group>"; };
+		D52DA1720FEC80440043BA4B /* AUPreferencesSingleItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AUPreferencesSingleItem.m; sourceTree = "<group>"; };
+		D52DA1730FEC80440043BA4B /* AUPreferencesSingleItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUPreferencesSingleItem.h; sourceTree = "<group>"; };
+		D52DA1D10FEC8A660043BA4B /* AUPathUtilitiesAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AUPathUtilitiesAddition.m; sourceTree = "<group>"; };
+		D53031071039CC7200797B8F /* AUColorAdditionExtra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUColorAdditionExtra.h; sourceTree = "<group>"; };
+		D53031081039CC7200797B8F /* AUColorAdditionExtra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AUColorAdditionExtra.m; sourceTree = "<group>"; };
+		D5373DDF0FFC478D00A14314 /* AUColorAdditionRGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUColorAdditionRGB.h; sourceTree = "<group>"; };
+		D5373DE00FFC478D00A14314 /* AUColorAdditionRGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AUColorAdditionRGB.m; sourceTree = "<group>"; };
+		D54DC3500FF1486C00024CA7 /* AUCommonGround.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUCommonGround.h; sourceTree = "<group>"; };
+		D553F8E60FF066AB001604E4 /* AUGraphicsAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUGraphicsAddition.h; sourceTree = "<group>"; };
+		D553F8E70FF066AB001604E4 /* AUGraphicsAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AUGraphicsAddition.m; sourceTree = "<group>"; };
+		D58350491273BC8000878259 /* ColibriApplicationCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColibriApplicationCommon.h; sourceTree = "<group>"; };
+		D5B8044B0FCF1817006837B6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		D5DECBBE0FB4BD07002F18EC /* Colibri.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Colibri.icns; path = Images/Colibri.icns; sourceTree = "<group>"; };
+		D5F48C1E11DFA3BD001214A7 /* ColibriHistoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColibriHistoryView.h; sourceTree = "<group>"; };
+		D5F48C1F11DFA3BD001214A7 /* ColibriHistoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColibriHistoryView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				D5B8044C0FCF1817006837B6 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5B8044B0FCF1817006837B6 /* CoreData.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Colibri.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Colibri */ = {
+			isa = PBXGroup;
+			children = (
+				D5267FC20FE72A5B00E5D312 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Colibri;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Colibri_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
+				D5DECBBE0FB4BD07002F18EC /* Colibri.icns */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				D526800A0FE72F1000E5D312 /* PreferencesView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5267FC20FE72A5B00E5D312 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D58350491273BC8000878259 /* ColibriApplicationCommon.h */,
+				D5267FC30FE72A5B00E5D312 /* ColibriApplicationController.h */,
+				D5267FC40FE72A5B00E5D312 /* ColibriApplicationController.m */,
+				D5267FC70FE72A5B00E5D312 /* ColibriMagnifierView.h */,
+				D5267FC80FE72A5B00E5D312 /* ColibriMagnifierView.m */,
+				D5F48C1E11DFA3BD001214A7 /* ColibriHistoryView.h */,
+				D5F48C1F11DFA3BD001214A7 /* ColibriHistoryView.m */,
+				D5267FC90FE72A5B00E5D312 /* ColibriMainWindow.h */,
+				D5267FCA0FE72A5B00E5D312 /* ColibriMainWindow.m */,
+				D5267FCB0FE72A5B00E5D312 /* ColibriPreferencesViewController.h */,
+				D5267FCC0FE72A5B00E5D312 /* ColibriPreferencesViewController.m */,
+				D5267FCD0FE72A5B00E5D312 /* External */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D5267FCD0FE72A5B00E5D312 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				D53031071039CC7200797B8F /* AUColorAdditionExtra.h */,
+				D53031081039CC7200797B8F /* AUColorAdditionExtra.m */,
+				D5373DDF0FFC478D00A14314 /* AUColorAdditionRGB.h */,
+				D5373DE00FFC478D00A14314 /* AUColorAdditionRGB.m */,
+				D54DC3500FF1486C00024CA7 /* AUCommonGround.h */,
+				D553F8E60FF066AB001604E4 /* AUGraphicsAddition.h */,
+				D553F8E70FF066AB001604E4 /* AUGraphicsAddition.m */,
+				D5267FCE0FE72A5B00E5D312 /* AUPathUtilitiesAddition.h */,
+				D52DA1D10FEC8A660043BA4B /* AUPathUtilitiesAddition.m */,
+				D52DA1730FEC80440043BA4B /* AUPreferencesSingleItem.h */,
+				D52DA1720FEC80440043BA4B /* AUPreferencesSingleItem.m */,
+				D5267FD10FE72A5B00E5D312 /* AUSingletonizeClass.h */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Colibri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Colibri" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				D5B804470FCF17CF006837B6 /* Code Signing */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Colibri;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Colibri;
+			productReference = 8D1107320486CEB800E47090 /* Colibri.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Colibri" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Colibri */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Colibri */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				D5DECBBF0FB4BD07002F18EC /* Colibri.icns in Resources */,
+				D526800C0FE72F1000E5D312 /* PreferencesView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D5B804470FCF17CF006837B6 /* Code Signing */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Code Signing";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#comment out or build with your own certificat\n\nif [ $CONFIGURATION != \"Debug\" ]; then\n\tTARGET_NAME_IDENTITY=Cucurbita\n\tcd \"${TARGET_BUILD_DIR}\" && codesign -f -s \"${TARGET_NAME_IDENTITY}\" \"${TARGET_NAME}.app\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				D5267FD20FE72A5B00E5D312 /* ColibriApplicationController.m in Sources */,
+				D5267FD40FE72A5B00E5D312 /* ColibriMagnifierView.m in Sources */,
+				D5267FD50FE72A5B00E5D312 /* ColibriMainWindow.m in Sources */,
+				D5267FD60FE72A5B00E5D312 /* ColibriPreferencesViewController.m in Sources */,
+				D52DA1740FEC80440043BA4B /* AUPreferencesSingleItem.m in Sources */,
+				D52DA1D20FEC8A660043BA4B /* AUPathUtilitiesAddition.m in Sources */,
+				D553F8E80FF066AB001604E4 /* AUGraphicsAddition.m in Sources */,
+				D5373DE10FFC478D00A14314 /* AUColorAdditionRGB.m in Sources */,
+				D53031091039CC7200797B8F /* AUColorAdditionExtra.m in Sources */,
+				D5F48C2011DFA3BD001214A7 /* ColibriHistoryView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D526800A0FE72F1000E5D312 /* PreferencesView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D526800B0FE72F1000E5D312 /* English */,
+			);
+			name = PreferencesView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_OPENMP_SUPPORT = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = NO;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Colibri_Prefix.pch;
+				GCC_VERSION = "";
+				GENERATE_PROFILING_CODE = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Colibri;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Colibri_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_CFLAGS = "-private_bundle";
+				PRODUCT_NAME = Colibri;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = 4.0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				PREBINDING = NO;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Colibri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Colibri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
