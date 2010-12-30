@@ -66,6 +66,7 @@ save the solid color as a PNG/TIFF image on your Desktop, see bellow for availab
 
 #### Menu Color Keys
 
+
 ###### sub menu Value as:
 	<command + 5> Actual Value
 	<command + 6> Percentage Value
@@ -77,6 +78,7 @@ save the solid color as a PNG/TIFF image on your Desktop, see bellow for availab
 	<command + J> Show System Color Picker (you can interact with it).
 
 #### Menu View Keys
+
 
 ###### sub menu Position:
 	<command + L> Lock/Unlock Actual X Y Position
