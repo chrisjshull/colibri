@@ -2,7 +2,7 @@
 
 Colibri what other color screen pickers cannot do.
 
-https://github.com/cucurbita/colibri/blob/master/ReadMe/screenshot.jpg
+![Alt text](https://github.com/cucurbita/colibri/blob/master/ReadMe/screenshot.jpg)
 
 Color history view:
 
