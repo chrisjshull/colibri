@@ -72,6 +72,7 @@ sub menu Value as:
 main menu:
 	<shift + command + C> Copy Text Value to the Clipboard
 	<command + S> Save Color as a PNG/TIFF file named with its Hexadecimal Value.
+	<command + J> Show System Color Picker (you can interact with it).
 
 ### Menu View Keys ###
 
