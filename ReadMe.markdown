@@ -5,7 +5,7 @@
 	Colibri what other color screen pickers cannot do.
 	
 		What's new:
-			1. The color you copy goes in this stack and the string representation to the pasteboard.
+			1. The color you copy goes in the history view and the string representation to the pasteboard.
 			2. Drag and drop a color anywhere: Applications, System Color Picker or Folders. 
 			3. Double click on a color to remove it from the stack.
 			4. Added Hot key to copy. (for now read-only setting)
