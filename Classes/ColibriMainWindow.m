@@ -11,7 +11,7 @@
 @implementation ColibriMainWindow
 
 static CFMachPortRef CMW_portRef = NULL;
-
+// main thread looper
 static CGEventRef CMW_TapEventCallback(
 	CGEventTapProxy proxy, 
 	CGEventType type, 
