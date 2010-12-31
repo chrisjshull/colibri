@@ -89,9 +89,9 @@ static CGEventRef CMW_TapEventCallback(
 - (id)initWithContentRect:(NSRect)contentRect styleMask:(NSUInteger)windowStyle backing:(NSBackingStoreType)bufferingType defer:(BOOL)deferCreation {
 	NSUInteger _windowStyle = NSHUDWindowMask|NSTitledWindowMask|NSUtilityWindowMask|NSClosableWindowMask;
 	if ((self = [super initWithContentRect:contentRect styleMask:_windowStyle backing:bufferingType defer:deferCreation])) {
-		
+		return self;
 	}
-    return self;
+	return nil;
 }
 
 #endif
