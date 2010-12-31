@@ -16,41 +16,36 @@ Colibri what other color screen pickers cannot do.
 
 
 #### Description
-Colibri is a screen color picker for displaying the RGB color value of pixels on your Mac 100% Cocoa powered (e.g 
-A Digital Color Meter, Colorimeter or similar to !DigitalColor Meter ©Apple, but using way far less CPU and with no bug). 
-By using shorcut keys, you can display the RGB color value as percentage, absolute or hexadecimal, you can also 
-save the solid color as a PNG/TIFF image on your Desktop, see bellow for available menu shortcut keys.
+	Colibri is a screen color picker for displaying the RGB color value of pixels on your Mac 100% 
+	Cocoa powered (e.g A Digital Color Meter, Colorimeter or similar to DigitalColor Meter ©Apple, 
+	but using way far less CPU and with no bug). By using shorcut keys, you can display the RGB color 
+	value as percentage, absolute or hexadecimal, you can also save the solid color as a PNG/TIFF image 
+	on your Desktop, see bellow for available menu shortcut keys.
 
-	#### License
+	License
 		code source: New BSD License/Modified BSD License, not applies to the builds.
 	
-	#### Menu Color Keys
+	Menu Color Keys:
+		sub menu Value as:
+			<command + 5> Actual Value
+			<command + 6> Percentage Value
+			<command + 7> Hexadecimal Value		
+		main menu:
+			<shift + command + C> Copy Text Value to the Clipboard
+			<command + S> Save Color as a PNG/TIFF file named with its Hexadecimal Value.
+			<command + J> Show System Color Picker (you can interact with it).
 	
+	Menu View Keys:
+		sub menu Position:
+			<command + L> Lock/Unlock Actual X Y Position
+			<command + X> Lock/Unlock Actual X Position
+			<command + Y> Lock/Unlock Actual Y Position		
+		main menu:
+			<command + +> Zoom In Magnifier
+			<command + -> Zoom Out Magnifier
+			<shift + command + S> Save Magnifier as a PNG/TIFF file.
 	
-	###### sub menu Value as:
-		<command + 5> Actual Value
-		<command + 6> Percentage Value
-		<command + 7> Hexadecimal Value
-	
-	###### main menu:
-		<shift + command + C> Copy Text Value to the Clipboard
-		<command + S> Save Color as a PNG/TIFF file named with its Hexadecimal Value.
-		<command + J> Show System Color Picker (you can interact with it).
-	
-	#### Menu View Keys
-	
-	
-	###### sub menu Position:
-		<command + L> Lock/Unlock Actual X Y Position
-		<command + X> Lock/Unlock Actual X Position
-		<command + Y> Lock/Unlock Actual Y Position
-	
-	###### main menu:
-		<command + +> Zoom In Magnifier
-		<command + -> Zoom Out Magnifier
-		<shift + command + S> Save Magnifier as a PNG/TIFF file.
-	
-	#### Menu Window Keys
+	Menu Window Keys:
 		<command + M> Minimize
 		<command + T> Float Top Level/Float Normal Level
 		<shift + command + G> Mouse Events Globally/Window Focused Mouse Events
