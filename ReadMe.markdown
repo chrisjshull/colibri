@@ -1,18 +1,14 @@
-#### Version 1.1.21, Current Release
-
-Colibri what other color screen pickers cannot do.
-
 <img src="https://github.com/cucurbita/colibri/raw/master/ReadMe/screenshot.png" />
 
-###### Color history view:
+#### Version 1.1.21, Current Release
 
-1. The color you copy goes in this stack and the string representation to the pasteboard.
-2. Drag and drop a color anywhere: Applications, System Color Picker or Folders. 
-3. Double click on a color to remove it from the stack.
-
-###### Global mode:
-
-1. Added Hot key to copy. (for now read-only setting)
+	Colibri what other color screen pickers cannot do.
+	
+	What's new:
+		1. The color you copy goes in this stack and the string representation to the pasteboard.
+		2. Drag and drop a color anywhere: Applications, System Color Picker or Folders. 
+		3. Double click on a color to remove it from the stack.
+		4. Added Hot key to copy. (for now read-only setting)
 
 
 #### Description
