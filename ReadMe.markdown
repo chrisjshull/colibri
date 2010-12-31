@@ -21,36 +21,36 @@ A Digital Color Meter, Colorimeter or similar to !DigitalColor Meter ©Apple, bu
 By using shorcut keys, you can display the RGB color value as percentage, absolute or hexadecimal, you can also 
 save the solid color as a PNG/TIFF image on your Desktop, see bellow for available menu shortcut keys.
 
-#### License
-	code source: New BSD License/Modified BSD License, not applies to the builds.
-
-#### Menu Color Keys
-
-
-###### sub menu Value as:
-	<command + 5> Actual Value
-	<command + 6> Percentage Value
-	<command + 7> Hexadecimal Value
-
-###### main menu:
-	<shift + command + C> Copy Text Value to the Clipboard
-	<command + S> Save Color as a PNG/TIFF file named with its Hexadecimal Value.
-	<command + J> Show System Color Picker (you can interact with it).
-
-#### Menu View Keys
-
-
-###### sub menu Position:
-	<command + L> Lock/Unlock Actual X Y Position
-	<command + X> Lock/Unlock Actual X Position
-	<command + Y> Lock/Unlock Actual Y Position
-
-###### main menu:
-	<command + +> Zoom In Magnifier
-	<command + -> Zoom Out Magnifier
-	<shift + command + S> Save Magnifier as a PNG/TIFF file.
-
-#### Menu Window Keys
-	<command + M> Minimize
-	<command + T> Float Top Level/Float Normal Level
-	<shift + command + G> Mouse Events Globally/Window Focused Mouse Events
+	#### License
+		code source: New BSD License/Modified BSD License, not applies to the builds.
+	
+	#### Menu Color Keys
+	
+	
+	###### sub menu Value as:
+		<command + 5> Actual Value
+		<command + 6> Percentage Value
+		<command + 7> Hexadecimal Value
+	
+	###### main menu:
+		<shift + command + C> Copy Text Value to the Clipboard
+		<command + S> Save Color as a PNG/TIFF file named with its Hexadecimal Value.
+		<command + J> Show System Color Picker (you can interact with it).
+	
+	#### Menu View Keys
+	
+	
+	###### sub menu Position:
+		<command + L> Lock/Unlock Actual X Y Position
+		<command + X> Lock/Unlock Actual X Position
+		<command + Y> Lock/Unlock Actual Y Position
+	
+	###### main menu:
+		<command + +> Zoom In Magnifier
+		<command + -> Zoom Out Magnifier
+		<shift + command + S> Save Magnifier as a PNG/TIFF file.
+	
+	#### Menu Window Keys
+		<command + M> Minimize
+		<command + T> Float Top Level/Float Normal Level
+		<shift + command + G> Mouse Events Globally/Window Focused Mouse Events
