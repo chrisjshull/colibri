@@ -18,12 +18,7 @@ extern NSString *const kColibriUserDefaultsColorHistoryKey;
 static inline NSUInteger CHV_indexAtLocation(NSPoint location, NSArray *bounds, NSUInteger count)
 {
 	NSUInteger i;
-	for (i = 0; i < count; i++) {
-		if (NSPointInRect(location, [[bounds objectAtIndex:i] rectValue]))
-		{
-			return i;
-		}
-	}
+	for (i = 0; i < count; i++) { if (NSPointInRect(location, [[bounds objectAtIndex:i] rectValue])) { return i; } }
 	return NSNotFound;
 }
 
@@ -47,10 +42,10 @@ static inline NSUInteger CHV_indexAtLocation(NSPoint location, NSArray *bounds, 
 
 - (id)initWithFrame:(NSRect)frame
 {
-    if ((self = [super initWithFrame:frame])) {
+	if ((self = [super initWithFrame:frame])) {
 		id archive = nil;
-    	NSArray *colors = nil;
-    	if (nil != (archive = [[NSUserDefaults standardUserDefaults] objectForKey:kColibriUserDefaultsColorHistoryKey])) {
+		NSArray *colors = nil;
+		if (nil != (archive = [[NSUserDefaults standardUserDefaults] objectForKey:kColibriUserDefaultsColorHistoryKey])) {
 			if (nil != (colors = [NSKeyedUnarchiver unarchiveObjectWithData:archive])) {
 				CHV_colors = [colors retain];
 			}
@@ -69,8 +64,8 @@ static inline NSUInteger CHV_indexAtLocation(NSPoint location, NSArray *bounds, 
 			xoffset = (index * 14);
 			[CHV_colorBounds addObject:[NSValue valueWithRect:NSMakeRect(xoffset, yoffset, 9.0, 9.0)]];
 		}
-    }
-    return self;
+	}
+	return self;
 }
 
 - (void)drawRect:(NSRect)aRect
