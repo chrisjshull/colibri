@@ -16,11 +16,10 @@ Colibri what other color screen pickers cannot do.
 
 
 #### Description
-	Colibri is a screen color picker for displaying the RGB color value of pixels on your Mac 100% 
-	Cocoa powered (e.g A Digital Color Meter, Colorimeter or similar to DigitalColor Meter ©Apple, 
-	but using way far less CPU and with no bug). By using shorcut keys, you can display the RGB color 
-	value as percentage, absolute or hexadecimal, you can also save the solid color as a PNG/TIFF image 
-	on your Desktop, see bellow for available menu shortcut keys.
+	Colibri is a screen color picker for displaying the RGB color value of pixels on your Mac 100% Cocoa powered 
+	(e.g A Digital Color Meter, Colorimeter or similar to DigitalColor Meter ©Apple, but using way far less CPU 
+	and with no bug). By using shorcut keys, you can display the RGB color value as percentage, absolute or hexadecimal, 
+	you can also save the solid color as a PNG/TIFF image on your Desktop, see bellow for available menu shortcut keys.
 
 	License
 		code source: New BSD License/Modified BSD License, not applies to the builds.
