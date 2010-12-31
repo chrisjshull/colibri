@@ -12,13 +12,14 @@
 
 static CFMachPortRef CMW_portRef = NULL;
 
-static CGEventRef CMW_onMouseMovedFactory(
+static CGEventRef CMW_TapEventCallback(
 	CGEventTapProxy proxy, 
 	CGEventType type, 
 	CGEventRef event, 
 	void *refcon) 
 {
-	if (kCGEventMouseMoved & type || kCGEventKeyDown & type) { // || kCGEventLeftMouseUp & type || kCGEventLeftMouseDown & type) {
+	if (kCGEventMouseMoved & type || kCGEventKeyDown & type) { 
+		// || kCGEventLeftMouseUp & type || kCGEventLeftMouseDown & type) {
 		NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
 		if (refcon) {
 			id obj = (id)refcon;
@@ -123,7 +124,8 @@ static CGEventRef CMW_onMouseMovedFactory(
 		[self setAcceptsMouseMovedEvents:NO];
 		if (!CMW_portRef) {
 			if ((CMW_portRef = CGEventTapCreate(kCGSessionEventTap, kCGHeadInsertEventTap, kCGEventTapOptionListenOnly, 
-				 	CGEventMaskBit(kCGEventMouseMoved) | CGEventMaskBit(kCGEventKeyDown) /*| CGEventMaskBit(kCGEventLeftMouseUp)  | CGEventMaskBit(kCGEventLeftMouseDown)*/, CMW_onMouseMovedFactory, (!receiver ? self : receiver)))) {
+				 	CGEventMaskBit(kCGEventMouseMoved) | CGEventMaskBit(kCGEventKeyDown) , CMW_TapEventCallback, (!receiver ? self : receiver)))) {
+				/*| CGEventMaskBit(kCGEventLeftMouseUp)  | CGEventMaskBit(kCGEventLeftMouseDown)*/
 				if ((CMW_loopSourceRef = CFMachPortCreateRunLoopSource(kCFAllocatorDefault, CMW_portRef, 0))) {
 					CFRunLoopAddSource(CFRunLoopGetCurrent(), CMW_loopSourceRef, kCFRunLoopCommonModes);
 					CGEventTapEnable(CMW_portRef, true);

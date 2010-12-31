@@ -247,8 +247,6 @@ static bool CMW_awaked = NO;
 		CMW_color = nil;
 	}
 	CMW_color = [pixel retain];
-	//[self unlockFocus];
-	//[self lockFocus];
 	// drawing magnifier view borders
 	CGContextSetGrayStrokeColor(context, 0.5, 1.0);	
 	CAC_drawBorderForRect(&context, CGRectMake(0.0, 0.0, 127.0, 127.0));
@@ -304,43 +302,6 @@ static bool CMW_awaked = NO;
 		CAC_drawBorderForRect(&context, CGRectMake(0.5, 0.5, 121.0, 49.0));
 		CGContextSetGrayStrokeColor(context, 1.0, 1.0);
 		CAC_drawBorderForRect(&context, CGRectMake(1.5, 1.5, 119.0, 47.0));
-		
-		
-	/*	NSColor *complementary = [CMW_color complementaryColor];
-		 
-		 CGContextSetRGBFillColor(context, 
-			[complementary redComponent], 
-			[complementary greenComponent], 
-			[complementary blueComponent], 
-			1.0
-		 );
-		 
-		CGContextFillRect(context, CGRectMake(0, 3.0, 32.0, 12.0));
-
-		CGContextSetGrayStrokeColor(context, 0.5, 1.0);
-		CAC_drawBorderForRect(&context, CGRectMake(0.5, 3.5, 31.0, 11.0));
-
-		CGContextSetGrayStrokeColor(context, 1.0, 1.0);
-		CAC_drawBorderForRect(&context, CGRectMake(1.5, 4.5, 29.0, 9.0));
-		
-		CGContextSetRGBFillColor(context, [CMW_color redComponent], 0, 0, 1.0);
-		CGContextFillRect(context, CGRectMake(42.0, 4.0, 5.0, 10.0));
-		
-		CGContextSetGrayStrokeColor(context, 0.0, 1.0);
-		//CAC_drawBorderForRect(&context, CGRectMake(42.5, 4.5, 5.0, 10.0));
-		
-		CGContextSetRGBFillColor(context, 0, [CMW_color greenComponent], 0, 1.0);
-		CGContextFillRect(context, CGRectMake(52.0, 4.0, 5.0, 10.0));
-		
-		CGContextSetGrayStrokeColor(context, 0.0, 1.0);
-		//CAC_drawBorderForRect(&context, CGRectMake(52.5, 4.5, 5.0, 10.0));
-		
-		CGContextSetRGBFillColor(context, 0, 0, [CMW_color blueComponent], 1.0);
-		CGContextFillRect(context, CGRectMake(62.0, 4.0, 5.0, 10.0));
-		
-		CGContextSetGrayStrokeColor(context, 0.0, 1.0);
-		//CAC_drawBorderForRect(&context, CGRectMake(62.5, 4.5, 5.0, 10.0));
-*/		
 		[colorView unlockFocus];
 	}
 	[self unlockFocus];

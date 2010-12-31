@@ -87,9 +87,7 @@ static inline NSUInteger CHV_indexAtLocation(NSPoint location, NSArray *bounds, 
 			NSColor *color = [CHV_colors objectAtIndex:i];
 			CGContextSetRGBFillColor(context, [color redComponent], [color greenComponent], [color blueComponent], 1.0);
 			CGContextFillRect(context, bounds);
-			//CAC_drawBorderForRect(&context, CGRectMake(bounds.origin.x + 1.5, bounds.origin.y + 1.5, 7.0, 7.0));
 			CGContextSetGrayStrokeColor(context, 0.2, 1.0);
-			//CGContextSetGrayStrokeColor(context, 1.0, 1.0);
 		} else {
 			CGContextSetGrayFillColor(context, 0.85, 1.0);
 			CGContextFillRect(context, bounds);
