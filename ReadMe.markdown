@@ -2,7 +2,7 @@
 
 Colibri what other color screen pickers cannot do.
 
-<img src="https://github.com/cucurbita/colibri/raw/master/ReadMe/screenshot.jpg" />
+<img src="https://github.com/cucurbita/colibri/raw/master/ReadMe/screenshot.png" />
 
 ###### Color history view:
 
