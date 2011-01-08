@@ -212,7 +212,6 @@ extern NSString *const AUPreferencesSingleItemWindowDidCloseNotification;
 	} else {
 		CAC_globalMouseEvents = NO;
 	}
-	
 	[NSTimer scheduledTimerWithTimeInterval:0.5 
 		target:self 
 		selector:@selector(awakeMouseEvents:) 

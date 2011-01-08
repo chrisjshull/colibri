@@ -43,4 +43,4 @@
 			<shift + command + G> Mouse Events Globally/Window Focused Mouse Events
 	
 	License
-		code source: New BSD License/Modified BSD License, not applies to the builds.
+		code source: New BSD License/Modified BSD License, not apply to the builds.
