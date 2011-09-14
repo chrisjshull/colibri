@@ -272,9 +272,10 @@ static bool CMW_awaked = NO;
 	// drawing color view
 	if ([colorView lockFocusIfCanDraw])
 	{
+        CGFloat width = 144.0; //122
 		// drawing color
 		CGContextSetRGBFillColor(context, [CMW_color redComponent], [CMW_color greenComponent], [CMW_color blueComponent], 1.0);
-		CGContextFillRect(context, CGRectMake(0, 0.0, 122.0, 50.0));
+		CGContextFillRect(context, CGRectMake(0, 0.0, width, 50.0));
 		// drawing color info
 		NSString * colorStringValue;
 		NSNumber *colorValueType = [[NSUserDefaults standardUserDefaults] 
@@ -287,21 +288,22 @@ static bool CMW_awaked = NO;
 			case COLOR_VALUE_TYPE_PERCENTAGE:
 				colorStringValue = [CMW_color percentageValue];
 				break;
-			case COLOR_VALUE_TYPE_HEXADECIMAL:
-				colorStringValue = [CMW_color hexaValue];
+            case COLOR_VALUE_TYPE_HSL:
+				colorStringValue = [CMW_color hslValue];
 				break;
+            case COLOR_VALUE_TYPE_HEXADECIMAL:
 			default:
 				colorStringValue = [CMW_color hexaValue];
 				break;
 		}
 		CGContextSetGrayFillColor(context, 0.1, 0.7);
-		CGContextFillRect(context, CGRectMake(1.0, 0.0, 122.0, 20.0));
+		CGContextFillRect(context, CGRectMake(1.0, 0.0, width, 20.0));
 		[colorStringValue drawAtPoint: NSMakePoint(10.5 , 4.0) withAttributes:CMW_fontattr];
 		// drawing color view borders 
 		CGContextSetGrayStrokeColor(context, 0.5, 1.0);	
-		CAC_drawBorderForRect(&context, CGRectMake(0.5, 0.5, 121.0, 49.0));
+		CAC_drawBorderForRect(&context, CGRectMake(0.5, 0.5, width-1.0, 49.0));
 		CGContextSetGrayStrokeColor(context, 1.0, 1.0);
-		CAC_drawBorderForRect(&context, CGRectMake(1.5, 1.5, 119.0, 47.0));
+		CAC_drawBorderForRect(&context, CGRectMake(1.5, 1.5, width-3.0, 47.0));
 		[colorView unlockFocus];
 	}
 	[self unlockFocus];
@@ -427,18 +429,21 @@ static bool CMW_awaked = NO;
 	switch ([colorValueType integerValue]) {
 		case COLOR_VALUE_TYPE_ACTUAL:
 			value = [CMW_color actualValue];	
-		break;
+            break;
 		case COLOR_VALUE_TYPE_PERCENTAGE:
 			value = [CMW_color percentageValue];	
-		break;
-		case COLOR_VALUE_TYPE_HEXADECIMAL:
-			value = [CMW_color hexaValue];
-		break;
+            break;
+        case COLOR_VALUE_TYPE_HSL:
+			value = [CMW_color hslValue];
+            break;
+        case COLOR_VALUE_TYPE_HEXADECIMAL:
 		default:
 			value = [CMW_color hexaValue];
-		break;
+            break;
 	}
 	
+    //NSLog(@"colorValue: %d %@",[colorValueType integerValue],value);
+    
 	return value;
 }
 

@@ -161,7 +161,8 @@ extern NSString *const AUPreferencesSingleItemWindowDidCloseNotification;
 				if (
 					colorType != COLOR_VALUE_TYPE_ACTUAL && 
 					colorType != COLOR_VALUE_TYPE_PERCENTAGE && 
-					colorType != COLOR_VALUE_TYPE_HEXADECIMAL
+					colorType != COLOR_VALUE_TYPE_HEXADECIMAL && 
+					colorType != COLOR_VALUE_TYPE_HSL
 				) {
 					colorType = COLOR_VALUE_TYPE_HEXADECIMAL;
 					[[NSUserDefaults standardUserDefaults] setObject:

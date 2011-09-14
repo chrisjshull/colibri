@@ -45,6 +45,10 @@
 - (NSString *)hexaValue;
 - (NSString *)actualValue;
 - (NSString *)percentageValue;
+- (NSString *)hslValue;
+
+
+
 
 @end
 
